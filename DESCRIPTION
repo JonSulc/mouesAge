@@ -1,0 +1,20 @@
+Package: mouseAge
+Type: Package
+Title: Converts mouse ages to human equivalents
+Version: 1.0.0
+Authors@R: c(
+    person(
+      "Jonathan", "Sulc",
+      email = "jonathan.sulc@epfl.ch",
+      role = c("aut", "cre")
+    )
+  )
+Description: Converts mouse ages to approximate human age equivalents base on
+    doi.org/10.1016/j.lfs.2015.10.025
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
